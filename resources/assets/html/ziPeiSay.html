@@ -11,7 +11,9 @@
 		<div id='footer'></div>
 	</body>
 	<script>
-		$('#header').load('./common/header.html')
+		$('#header').load('./common/header.html',function() {
+			$('.header').children('img').attr('src', '../../../public/static/images/zi-pei-yue.png');
+		})
 		$('#footer').load('./common/footer.html')
 	</script>
 </html>

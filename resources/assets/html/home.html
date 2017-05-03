@@ -110,7 +110,9 @@
 <div id='footer'></div>
 
 <script>
-	$('#header').load('./common/header.html')
+	$('#header').load('./common/header.html',function() {
+		$('.header').children('img').attr('src', '../../../public/static/images/home/header-bg.png');
+	})
 	$('#footer').load('./common/footer.html')
 </script>
 

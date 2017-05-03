@@ -13,7 +13,9 @@
 		</div>
 	</body>
 	<script>
-	$('#header').load('./common/header.html')
-	$('#footer').load('./common/footer.html')
-</script>
+		$('#header').load('./common/header.html',function() {
+			$('.header').children('img').attr('src', '../../../public/static/images/aboutIcon.png');
+		})
+		$('#footer').load('./common/footer.html')
+	</script>
 </html>

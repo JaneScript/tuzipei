@@ -1,0 +1,88 @@
+@import "common/reset";
+@import "common/header";
+@import "common/footer";
+
+.main {
+    .main-title {
+        padding-top: 20px;
+        h3 {
+            line-height: 2em;
+            text-indent: 2em;
+        }
+    }
+    ._center {
+        text-align: center;
+    }
+    .main-content {
+        padding: 20px;
+        dl {
+            height: 160px;
+            padding: 30px 0px;
+            dt {
+                width: 160px;
+                height: 160px;
+                background: #eee;
+                float: left;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    background: #eee;
+                }
+            }
+            dd {
+                height: 100%;
+                width: 970px;
+                position: relative;
+                float: right;
+                p {
+                    padding: 15px 0;
+                    color: #666;
+                }
+                ._data {
+                    width: 100%;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                }
+                .public-num,.date,.comments,.share {
+                    padding-left: 10px;
+                    &::before {
+                        display: inline-block;
+                        content: '';
+                        width: 20px;
+                        height: 20px;
+                        position: relative;
+                        margin-right: 6px;
+                        top: 5px;
+                        background: url('../images/home/public-logo.png') no-repeat;
+                        background-size: 100%; 
+                    }
+                }
+                .date {
+                    &::before {
+                        background: url('../images/home/date.png') no-repeat;
+                        background-size: 100%;
+                    }
+                }
+                .comments {
+                    &::before {
+                        background: url('../images/home/comments.png') no-repeat;
+                        background-size: 100%;
+                    }
+                }
+                .share {
+                    &::before {
+                        background: url('../images/home/share.png') no-repeat;
+                        background-size: 100%;
+                    }
+                }
+                .read {
+                    background: #3eb3b4;
+                    color: #fff;
+                    padding: 5px 20px;
+                    float: right;
+                }
+            }
+        }
+    }
+}

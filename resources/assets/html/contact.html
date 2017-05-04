@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link type="text/css"  rel="stylesheet" href="../../../public/static/css/contact.css"/>
+		<script type="text/javascript" src="../../../public/static/js/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id='header'></div>
+		
+		<div class="main">
+			contact me
+		</div>
+		
+		<div id="footer"></div>
+	</body>
+	<script>
+		$('#header').load('./common/header.html',function() {
+			$('.header').children('img').attr('src', '../../../public/static/images/home/header-bg.png');
+		})
+		$('#footer').load('./common/footer.html')
+	</script>
+</html>

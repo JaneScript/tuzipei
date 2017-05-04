@@ -1,3 +1,85 @@
 @import "common/reset";
 @import "common/header";
 @import "common/footer";
+#bodyBox{
+    min-width: 1200px;
+    .userBox{
+        overflow: hidden;
+        margin: 50px 20%;
+        .userIcon{
+            float: left;
+            img{
+                width: 200px;
+                height: 250px;
+            }
+        }
+        .userIntroduceBox{
+            margin-left: 300px;
+            div{
+                margin-bottom: 20px;
+            }
+            .userName{
+                font-size: 17px;
+                font-weight: bold;
+            }
+            .userIntroduce{
+                margin-bottom: 20px;
+                line-height: 25px;
+                font-size: 16px;
+            }
+        }
+    }
+    .booksBox{
+        margin: 50px 20%;
+        .bookBox{
+            overflow: hidden;
+            padding: 20px;
+            background: #f2f2f2;
+            margin-top: 1px;
+            .bookIcon{
+                float: left;
+                img{
+                    width: 200px;
+                    height: 250px;
+                    box-shadow: 5px 5px 10px #666;
+                }
+            }
+            .bookIntroduceBox{
+                margin-left: 280px;
+                div{
+                    margin-bottom: 20px;
+                }
+                .bookName{
+                    font-size: 17px;
+                    font-weight: bold;
+                }
+                .bookIntroduce{
+                    margin-bottom: 20px;
+                    line-height: 25px;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+   .introduceBox{
+         margin: 50px 20%; 
+         .introduceIcon{
+            text-align:justify;
+            text-align-last:justify;
+            line-height:0;
+            margin: 10px 0;
+             &:after{
+                 display:inline-block;
+                 overflow:hidden;
+                 width:100%;
+                 height:0;
+                 content:'';
+                 vertical-align:top;
+             }
+             img{
+                display: inline-block;
+                width: 32%;
+             }
+         }   
+   }
+}

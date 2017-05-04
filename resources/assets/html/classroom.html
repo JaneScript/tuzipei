@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>涂子沛频道</title>
+		<link type="text/css"  rel="stylesheet" href="../../../public/static/css/classroom.css"/>
+		<script type="text/javascript" src="../../../public/static/js/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id='header'></div>
+		<div id="bodyBox">
+			
+		</div>
+		<div id="footer">
+		</div>
+	</body>
+	<script>
+		$('#header').load('./common/header.html',function() {
+			$('.header').children('img').attr('src', '../../../public/static/images/classroom_icon.png');
+		})
+		$('#footer').load('./common/footer.html')
+	</script>
+</html>

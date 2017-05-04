@@ -2,3 +2,59 @@
 @import "common/reset";
 @import "common/header";
 @import "common/footer";
+
+.main {
+    img {
+        width: 100%;
+        min-width: 1200px;
+        
+    }
+    .main-content {
+        height: 830px;
+        min-width: 1200px;
+        background: url('../images/ziPeiSay-main-bg.png') no-repeat;
+        background-size: 100% 100%;
+        .content {
+            padding-top: 40px;
+            p {
+                text-align: center;
+                line-height: 2.5;
+            }
+        }
+    }
+    .article {
+        .article-tabs {
+            padding-top: 30px;
+            height: 50px;
+            p {
+                display: inline-block;
+                width: 590px;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                border-bottom: 2px solid #34b5ff;    
+                &::before {
+                    display: inline-block;
+                    content: '';
+                    width: 20px;
+                    height: 20px;
+                    position: relative;
+                    margin-right: 8px;
+                    top: 7px;
+                    background: url('../images/home/weibo-logo.png') no-repeat;
+                    background-size: 100%; 
+                }
+                &:nth-child(2) {
+                    &::before {
+                        background: url('../images/home/wechat-logo.png') no-repeat;
+                        background-size: 100%;
+                    }
+                }
+            }
+        }
+        .article-content {
+            margin-top: 2px;
+        }
+        
+    }
+}

@@ -15,8 +15,10 @@
         width: 150px;
         dt {
             padding-bottom: 10px;
-            color: #ccc;
-            font-size:18px;
+            a {
+                color: #ccc;
+                font-size:18px; 
+            }
         }
         dd {
             margin: 0 auto;

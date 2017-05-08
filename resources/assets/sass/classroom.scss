@@ -1,3 +1,89 @@
 @import "common/reset";
 @import "common/header";
 @import "common/footer";
+#bodyBox{
+    min-width: 1200px;
+    .titleBox{
+        text-align: center;
+        overflow: hidden;
+        margin: 50px 20%;
+        line-height: 30px;
+        position:relative;
+       &:after,&:before{
+           position: absolute;
+           top: 14px;
+           content:'';
+           width: 40%;
+           border: 1px solid #e3e3e3;
+       }
+       &:after{
+           left: 0;
+       }
+       &:before{
+           right: 0;
+       }
+    }
+     ul.timeline {
+           list-style-type: none;
+           margin: 50px 10%;
+           padding: 0;
+           li{
+               position: relative;
+               margin: 20px 0;
+               .number{
+                   position: absolute;
+                   background: url('../images/timeline/version_dot.png')  no-repeat scroll 0 0 transparent;
+                   width: 84px;
+                   height: 84px;
+                   left: 97px;
+                   line-height: 20px;
+                   text-align: center;
+                   color: #FFFFFF;
+                   font-size: 18px;
+                   .numberDay{
+                            margin-top: 17px;
+                            font-size: 32px;
+                   }
+                   .numberTime{
+                           margin-top: 10px;
+                           font-size: 18px
+                   }
+               }
+               .content{
+                   margin-left: 200px;
+                   position: relative;
+                   border-bottom: 1px dashed #f7dfc2;
+                   .contentTitle{
+                       font-weight: bold;
+                   }
+                   div{
+//                      background-color: #3594cb;
+//                      background: url("../images/timeline/version_line.png")  repeat-y scroll 120px 0 transparent;
+                        padding: 5px 0;
+                        color: #000;
+                        font-size: 15px;
+                        line-height: 20px;
+                        overflow: hidden;
+                   }
+                   .contentIcon{
+                        float: left;
+                        width: 23%;
+                        padding-right: 10px;
+                        img{
+                            width: 100%;
+                        }
+                   }
+                   &:before{
+                       position: absolute;
+                       content: "";
+                       width: 2px;
+                       background: url("../images/timeline/version_line.png") repeat-y scroll;
+                       left: -62px;
+                       top: 95px;
+                       height: 58%;
+                   }
+               }
+               
+           }
+       }
+}

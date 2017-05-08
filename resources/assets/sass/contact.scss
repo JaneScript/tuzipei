@@ -25,6 +25,9 @@
                 width: 240px;
                 height: 150px;
                 float: left;
+                img{
+                    display: inline-block;
+                }
             }
         }
         .contact-title {
@@ -71,6 +74,7 @@
                     img {
                         width: 80px;
                         height: 80px;
+                        display: inline-block;
                     }
                 }
                 .channel-mid {

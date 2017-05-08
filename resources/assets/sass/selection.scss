@@ -1,4 +1,5 @@
 @import "common/reset";
+@import "page";
 @import "common/header";
 @import "common/footer";
 
@@ -85,5 +86,9 @@
                 }
             }
         }
+    }
+    .page-nav {
+        height: 80px;
+        text-align: center;
     }
 }

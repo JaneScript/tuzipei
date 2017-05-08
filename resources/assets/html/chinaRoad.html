@@ -5,6 +5,7 @@
 		<title></title>
 		<link type="text/css"  rel="stylesheet" href="../../../public/static/css/selection.css"/>
 		<script type="text/javascript" src="../../../public/static/js/jquery.min.js"></script>
+		<script type="text/javascript" src="../../../public/static/js/page.js"></script>
 	</head>
 	<body>
 		<div id='header'></div>
@@ -70,6 +71,9 @@
 					</dd>
 				</dl>
 			</div>
+			<div class="page-nav">
+				<ul class="page" maxshowpageitem="5" pagelistcount="10"  id="page"></ul>
+			</div>
 		</div>
 		
 		<div id="footer"></div>
@@ -79,5 +83,12 @@
 			$('.header').children('img').attr('src', '../../../public/static/images/china-road-bg.png');
 		})
 		$('#footer').load('./common/footer.html')
+		
+		var GG = {//点击分页获取当前的页数值1,2,3,4,5
+	        "kk":function(mm){
+	          //alert(mm);
+	        }
+	    }
+		$("#page").initPage(71,1,GG.kk);
 	</script>
 </html>

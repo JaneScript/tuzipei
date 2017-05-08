@@ -11,6 +11,10 @@ $(function() {
 	$('.qr-code').children('p').mouseover(function() {
 		var length = $('.qr-code').children('p').length;
 		for (var i=0; i<length; i++) {
+			if($(this).index() == 2) {
+				$(this).find('img').attr('src','../../../public/static/images/home/'+pathActive[2]+'.png');
+				break;
+			}
 			if($(this).index() == i) {
 				$(this).children('img').attr('src','../../../public/static/images/home/'+pathActive[i]+'.png');
 				break;
@@ -23,6 +27,10 @@ $(function() {
 	$('.qr-code').children('p').mouseout(function() {
 		var length = $('.qr-code').children('p').length;
 		for (var i=0; i<length; i++) {
+			if($(this).index() == 2) {
+				$(this).find('img').attr('src','../../../public/static/images/home/'+path[2]+'.png');
+				break;
+			}
 			if($(this).index() == i) {
 				$(this).children('img').attr('src','../../../public/static/images/home/'+path[i]+'.png');
 				break;

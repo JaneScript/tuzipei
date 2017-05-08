@@ -1,11 +1,15 @@
 @import "common/reset";
 @import "common/header";
 @import "common/footer";
+
+body {
+    background: #fff;
+}
 #bodyBox{
-    min-width: 1200px;
+    overflow: hidden;
+    clear: both;
     .userBox{
-        overflow: hidden;
-        margin: 50px 20%;
+        margin: 50px 0;
         .userIcon{
             float: left;
             img{
@@ -14,7 +18,7 @@
             }
         }
         .userIntroduceBox{
-            margin-left: 300px;
+            margin-left: 260px;
             div{
                 margin-bottom: 20px;
             }
@@ -30,7 +34,7 @@
         }
     }
     .booksBox{
-        margin: 50px 20%;
+        margin: 50px 0;
         .bookBox{
             overflow: hidden;
             padding: 20px;

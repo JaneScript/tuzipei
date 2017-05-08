@@ -16,7 +16,8 @@
     .main-content {
         padding: 20px;
         dl {
-            height: 160px;
+            overflow: hidden;
+            clear: both;
             padding: 30px 0px;
             dt {
                 width: 160px;
@@ -30,12 +31,12 @@
                 }
             }
             dd {
-                height: 100%;
+                min-height: 160px;
                 width: 970px;
                 position: relative;
                 float: right;
                 p {
-                    padding: 15px 0;
+                    padding: 15px 0 30px;
                     color: #666;
                 }
                 ._data {

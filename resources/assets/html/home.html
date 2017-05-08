@@ -71,9 +71,24 @@
 		</div>
 		<div class="right">
 			<div class="qr-code">
-				<img src="../../../public/static/images/home/wechat-logo.png" alt="">
-				<img src="../../../public/static/images/home/weibo-logo.png" alt="">
-				<img src="../../../public/static/images/home/email-logo.png" alt="">
+				<p class="wechat-code">
+					<img src="../../../public/static/images/home/wechat-logo.png" alt="">
+					<span>
+						<img src="../../../public/static/images/home/wechat.png"/>
+					</span>
+				</p>
+				<p class="weibo-code">
+					<img src="../../../public/static/images/home/weibo-logo.png" alt="">
+					<span>
+						<img src="../../../public/static/images/home/wechat.png"/>
+					</span>
+				</p>
+				<p class="email-code">
+					<img src="../../../public/static/images/home/email-logo.png" alt="">
+					<span>
+						<a href="Datavistabd@163.com">Datavistabd@163.com</a>
+					</span>
+				</p>
 			</div>
 			<div class="content-banner">
 				<img src="../../../public/static/images/home/content-banner.png" alt="">
@@ -109,12 +124,6 @@
 </div>
 <div id='footer'></div>
 
-<script>
-	$('#header').load('./common/header.html',function() {
-		$('.header').children('img').attr('src', '../../../public/static/images/home/header-bg.png');
-	})
-	$('#footer').load('./common/footer.html')
-</script>
-
+<script src="../../../public/static/js/home.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>

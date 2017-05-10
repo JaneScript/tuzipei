@@ -42,10 +42,58 @@ $(function() {
 	})
 	
 	
+	/********获取文章数据方法********/
 	
+	var params = {
+		page : 1,
+		limit : 10
+	}
+	getList('GET', 'http://203.110.178.189:8090/weixin.php?check=getlist', params);
 	
-	
-	
-	
+	function getList(type, url, params) {
+		$.ajax({
+            type: type,
+            url: url,
+            data: params,
+            beforeSend: function() {
+                console.log('loading...');
+            },
+            
+            success: function(res){
+            	
+        		var res = JSON.parse( res );
+        		
+        		var len = res.data.length;
+        		if(len) {
+	        		for(var i=0; i<len; i++) {
+	        			console.log(res.data[i].article_title);
+	        			$('.main-content').append(
+	        				'<dl>'+
+								'<dt>'+
+									'<img src='+res.data[i].article_thumbnail+'/>'+
+								'</dt>'+
+								'<dd>'+
+									'<h3>'+res.data[i].article_title+'</h3>'+
+									'<p>'+res.data[i].article_brief+'</p>'+
+									'<div>'+
+										'<span class="public-num">公众号</span>'+
+										'<span class="date">'+res.data[i].article_publish_time+'</span>'+
+//										'<span class="share">点赞(2134)</span>'+
+//										'<span class="comments">阅读(3423)</span>'+
+									'</div>'+
+								'</dd>'+
+							'</dl>'
+	        			)
+	        		}
+        		}
+        		
+        		console.log(res.totalpages)
+            },
+            
+            error: function(res) {
+            	console.log('err',res);
+            }
+       	});
+	}
 	
 })

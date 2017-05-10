@@ -35,7 +35,7 @@ var  page = {
         if(listCount>=0){
             var pageCount = listCount%page.pagelistcount>0?parseInt(listCount/page.pagelistcount)+1:parseInt(listCount/page.pagelistcount);
         }
-        var appendStr = page.getPageListModel(pageCount,currentPage);
+        var appendStr = page.getPageListModel(pageCount,currentPage);//3,1
         $("#"+page.pageId).html(appendStr);
     },
     /**
@@ -48,14 +48,15 @@ var  page = {
         currentPage = parseInt(currentPage);
         page.initWithUl(listCount,currentPage);
         page.initPageEvent(listCount,fun);
-        fun(currentPage);
+        //fun(currentPage);
     },
     "initPageEvent":function(listCount,fun){
         $("#"+page.pageId +">li[class='pageItem']").on("click",function(){
             page.setPageListCount(listCount,$(this).attr("page-data"),fun);
+            fun($(this).attr("page-data"));
         });
     },
-    "getPageListModel":function(pageCount,currentPage){
+    "getPageListModel":function(pageCount,currentPage){//3,1
         var prePage = currentPage-1;
         var nextPage = currentPage+1;
         var prePageClass ="pageItem";
@@ -70,9 +71,10 @@ var  page = {
         appendStr+="<li class='"+prePageClass+"' page-data='1' page-rel='firstpage'>首页</li>";
         appendStr+="<li class='"+prePageClass+"' page-data='"+prePage+"' page-rel='prepage'>&lt;上一页</li>";
         var miniPageNumber = 1;
-        if(currentPage-parseInt(page.maxshowpageitem/2)>0&&currentPage+parseInt(page.maxshowpageitem/2)<=pageCount){
+        if(currentPage-parseInt(page.maxshowpageitem/2)>0 && currentPage+parseInt(page.maxshowpageitem/2)<=pageCount){
             miniPageNumber = currentPage-parseInt(page.maxshowpageitem/2);
-        }else if(currentPage-parseInt(page.maxshowpageitem/2)>0&&currentPage+parseInt(page.maxshowpageitem/2)>pageCount){
+            
+        }else if(currentPage-parseInt(page.maxshowpageitem/2)>0 && currentPage+parseInt(page.maxshowpageitem/2)>pageCount){
             miniPageNumber = pageCount-page.maxshowpageitem+1;
             if(miniPageNumber<=0){
                 miniPageNumber=1;
@@ -81,6 +83,7 @@ var  page = {
         var showPageNum = parseInt(page.maxshowpageitem);
         if(pageCount<showPageNum){
             showPageNum = pageCount
+            console.log(pageCount,showPageNum)
         }
         for(var i=0;i<showPageNum;i++){
             var pageNumber = miniPageNumber++;

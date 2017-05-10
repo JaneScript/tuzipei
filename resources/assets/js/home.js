@@ -74,8 +74,8 @@ function getList(page,limit) {//获取数据后插入文档显示
 							'<div>'+
 								'<span class="public-num">公众号</span>'+
 								'<span class="date">'+data.data[i].article_publish_time+'</span>'+
-//										'<span class="share">点赞(2134)</span>'+
-//										'<span class="comments">阅读(3423)</span>'+
+//								'<span class="share">点赞(2134)</span>'+
+//								'<span class="comments">阅读(3423)</span>'+
 							'</div>'+
 						'</dd>'+
 					'</dl>'

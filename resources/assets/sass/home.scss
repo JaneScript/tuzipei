@@ -183,7 +183,6 @@
                 width: 30px;
                 height: 30px;
                 margin-right: 20px;
-                background: #26c6da;
                 float: left;
             }
             dd {
@@ -195,13 +194,21 @@
                 text-overflow: ellipsis;
                 white-space: nowrap;
             }
-            .dt-green {
+            &:nth-child(1) dt {
+                background: #00acc1;
+            }
+            &:nth-child(2) dt {
+                background: #26c6da;
+            }
+            &:nth-child(3) dt {
+                background: #4dd0e1;
+            }
+            &:nth-child(4) dt {
                 background: #b2ebf2;
             }
-            .dt-grey {
+            &:nth-child(5) dt, &:nth-child(6) dt {
                 background: #bdbdbd;
             }
-            
         }
     }
 }

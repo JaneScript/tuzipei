@@ -5,8 +5,26 @@
 	<title>涂子沛频道</title>
 	<link rel="stylesheet" type="text/css" href="../../../public/static/css/common.css">
 	<style type="text/css">
+		body {
+			background: #fff;
+		}
+		.layout-detail {
+			width: 740px;
+			min-height: 500px;
+			margin: 0 auto;
+			color: #3e3e3e;
+		}
 		img {
 			display: inline-block;
+			width: 100%;
+		}
+		.article_content {
+			padding: 50px 0;
+		}
+		.selection-content p {
+			
+			line-height: 2;
+    		padding-bottom: 2em;
 		}
 	</style>
 </head>
@@ -14,7 +32,7 @@
 
 <div id='header'></div>
 
-<div class="layout">
+<div class="layout-detail">
 	<div class="article_content">
 	
 	</div>
@@ -26,7 +44,8 @@
 <script>
 	/********加载公共头部和尾部方法********/
 	$('#header').load('./common/header.html',function() {
-		$('.header').children('img').attr('src', '../../../public/static/images/home/header-bg.png');
+		var header_img = localStorage.getItem('header_img');
+		$('.header').children('img').attr('src', '../../../public/static/images/'+header_img+'.png');
 	})
 	$('#footer').load('./common/footer.html')
 	

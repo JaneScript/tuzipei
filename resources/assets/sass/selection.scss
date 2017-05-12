@@ -1,7 +1,9 @@
 @import "page";
 
 .main {
-    
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
     .main-title {
         padding-top: 20px;
         h3 {
@@ -13,7 +15,7 @@
         text-align: center;
     }
     .main-content {
-        padding: 20px;
+        padding: 20px 0;
         dl {
             overflow: hidden;
             clear: both;
@@ -31,7 +33,7 @@
             }
             dd {
                 min-height: 160px;
-                width: 970px;
+                width: 700px;
                 position: relative;
                 float: right;
                 p {

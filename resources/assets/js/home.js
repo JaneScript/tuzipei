@@ -94,6 +94,7 @@ function getList(page,limit) {//获取数据后插入文档显示
 		$('.main-content , .hotTitle-right').on('click', 'dl', function() {
 			var index = $(this).index();
 			localStorage.setItem("article_content",data.data[index].article_content);
+			localStorage.setItem("header_img",'home/header-bg');
 			location.href = 'detail.html';
 		})
 	}

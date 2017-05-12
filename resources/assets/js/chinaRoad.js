@@ -7,16 +7,24 @@ $(function() {
 	$('#footer').load('./common/footer.html')
 	
 	/********分页********/
-	var getData = getList(1); //ajax请求的数据； 
-	
-	$("#page").initPage(getData.totalpages, 1, function(page) {
+	var StoragePage = 1; //储存上一个页码
+	//展示上一次浏览的页面
+	if(sessionStorage.getItem('page')) {
+		StoragePage = sessionStorage.getItem('page');
+	}
+	//ajax请求的数据；
+	var getData = getList(StoragePage);
+	//分页初始化
+	$("#page").initPage(getData.totalpages, StoragePage, function(page) {//参数：initPage(总共的页码数量，展示page顺序，点击分页按钮执行的方法)
+		sessionStorage.setItem("page",page);//储存当前页码
     	getData = getList(page);//获取文章数据
     });
 	
 	/********阅读全文click事件********/
 	$('.main-content').on('click', '.read', function() {
-		var index = $(this).index();
+		var index = $(this).parents('dl').index();
 		localStorage.setItem("article_content",getData.data[index].article_content);
+		localStorage.setItem("header_img",'china-road-bg');
 		location.href = 'detail.html';
 	})
 })

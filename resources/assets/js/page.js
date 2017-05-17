@@ -83,7 +83,6 @@ var  page = {
         var showPageNum = parseInt(page.maxshowpageitem);
         if(pageCount<showPageNum){
             showPageNum = pageCount
-            console.log(pageCount,showPageNum)
         }
         for(var i=0;i<showPageNum;i++){
             var pageNumber = miniPageNumber++;

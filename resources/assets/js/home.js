@@ -11,6 +11,7 @@ $(function() {
 	
 	/********获取文章数据********/
 	getList(1,10);
+	
 })
 
 
@@ -100,11 +101,15 @@ function getList(page,limit) {//获取数据后插入文档显示
 	}
 	
 	//点击排行和最新动态事件
-	var _clickLi = false;
 	$('.nav-tabs').on('click', 'li', function() {
+		
+		$(this).children('a').addClass('liActive');
+		$(this).siblings().children('a').removeClass('liActive');
+		
 		var index = $(this).index();
+		
 		$('.hotTitle-right').html('');
-		if(index == 0) {
+		if(index == 1) {
 			for(var i=0; i<len; i++) {
 				if(i%2==1 || i==8) {
 					$('.hotTitle-right').append(
@@ -115,7 +120,7 @@ function getList(page,limit) {//获取数据后插入文档显示
 					)
 				}
 			}
-		} else if(index == 1) {
+		} else if(index == 0) {
 			for(var i=0; i<len; i++) {
 				if(i < 6) {
 					$('.hotTitle-right').append(

@@ -9,8 +9,9 @@
         margin-bottom: 25px;
         h2 {
             text-align: center;
-            font-size: 32px;
+            font-size: 30px;
             line-height: 2;
+            color: #666;
         }
         .partener-logo {
             overflow: hidden;
@@ -19,7 +20,7 @@
             line-height: 150px;
             padding-bottom: 30px;
             p {
-                width: 240px;
+                width: 200px;
                 height: 150px;
                 float: left;
                 img{
@@ -32,7 +33,7 @@
             &::before {
                 content: '';
                 height: 2px;
-                width: 420px;
+                width: 320px;
                 background: #e5e5e5;
                 position: absolute;
                 left: 60px;
@@ -41,7 +42,7 @@
             &::after {
                 content: '';
                 height: 2px;
-                width: 420px;
+                width: 320px;
                 background: #e5e5e5;
                 position: absolute;
                 right: 60px;
@@ -66,7 +67,8 @@
                     line-height: 150px;
                 }
                 .channel-left {
-                    width: 170px;
+                    width: 130px;
+                    margin-right: 20px;
                     text-align: center;
                     img {
                         width: 80px;
@@ -75,13 +77,14 @@
                     }
                 }
                 .channel-mid {
-                    width: 775px;
+                    width: 610px;
                     h2 {
                         line-height: 3;
                     }
                     p {
-                        width: 650px;
+                        width: 560px;
                         line-height: 1.5;
+                        color: #666;
                     }
                 }
                 .channel-right {

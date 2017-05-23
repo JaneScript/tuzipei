@@ -8,7 +8,7 @@ var article_selection_data = {
 	'page1': [
 		{//0
 			"article_title": "一个优秀数据公司除了技术，还需要什么？",
-			"article_brief": "在互联网对一切重构的今天，大数据是互联网深入发展的下一波应用，是互联网发展的自然延伸。<br/>目前，大数据的发展已经到了一个临界点，关于大数据的业务新闻越来越多，除各平台挖掘数据价值外，应用层面也给行业带来不少创新，如数据服务、技术服务、数据应用等...",
+			"article_brief": "在互联网对一切重构的今天，大数据是互联网深入发展的下一波应用，是互联网发展的自然延伸。<br/>目前，大数据的发展已经到了一个临界点，关于大数据的业务新闻越来越多",
 			"article_publish_time": "2016-12-16",
 			"article_thumbnail": "../../../public/static/images/selection/selection-img03.png",
 			"article_content": "<div class='selection-content'><h1>一个优秀数据公司除了技术，还需要什么？</h1><p></p><hr/><p style='color: rgb(136, 136, 136);'>2016-12-16 Mr.Data <a style='color:#607fa6; cursor:pointer;'>涂子沛频道</a></p>"+
@@ -38,7 +38,7 @@ var article_selection_data = {
 		},
 		{//1
 			"article_title": "涂子沛：为什么我们需要“新零售”？",
-			"article_brief": "今年“双11”，除了天猫的1207亿元销售记录，还有一件事引起我的注意，那就是当天上午国务院办公厅公布了《关于推动实体零售创新转型的意见》，指出实体零售发展面临前所未有的挑战，提出实体零售应促进线上、线下融合（O2O），即发展新零售...",
+			"article_brief": "今年“双11”，除了天猫的1207亿元销售记录，还有一件事引起我的注意，那就是当天上午国务院办公厅公布了《关于推动实体零售创新转型的意见》",
 			"article_publish_time": "2016-11-17",
 			"article_thumbnail": "../../../public/static/images/selection/selection-img11.png",
 			"article_content": "<div class='selection-content'><p></p><h1>涂子沛：为什么我们需要“新零售”？</h1><p></p><hr/><p style='color: rgb(136, 136, 136);'>2016-11-17 涂子沛 <a style='color:#607fa6; cursor:pointer;'>涂子沛频道</a></p><p><img src='../../../public/static/images/selection/selection-img11.png' /></p></div>"+
@@ -55,7 +55,7 @@ var article_selection_data = {
 		},
 		{//2
 			"article_title": "涂子沛：剁手，不止双十一，更有朋友圈",
-			"article_brief": "最近半年来，欧美各国有越来越多的报道说，有人主动断网、特别是拒绝社交媒体，类似的话题正不断引起讨论。今年世界读书日，我写了篇文章《朋友圈是读书的敌人》，有人就跟我说：要不是朋友圈，我连你这篇文章都看不到，再说你也不正在发朋友圈么？这听起来像扛着红旗反红旗，自相矛盾...",
+			"article_brief": "最近半年来，欧美各国有越来越多的报道说，有人主动断网、特别是拒绝社交媒体，类似的话题正不断引起讨论。今年世界读书日，我写了篇文章《朋友圈是读书的敌人》",
 			"article_publish_time": "2016-11-07",
 			"article_thumbnail": "../../../public/static/images/selection/content-banner.png",
 			"article_content": "<div class='selection-content'><p></p><h1>涂子沛：剁手，不止双十一，更有朋友圈</h1><p></p><hr/><p style='color: rgb(136, 136, 136);'>2016-11-07 涂子沛 <a style='color:#607fa6; cursor:pointer;'>涂子沛频道</a></p><p><img src='../../../public/static/images/selection/selection-img21.gif' /></p></div>"+
@@ -75,7 +75,7 @@ var article_selection_data = {
 		},
 		{//3
 			"article_title": "人民日报：网约模式不等于分享经济｜涂子沛",
-			"article_brief": "这两年，分享经济在我国多个领域快速兴起，赢得了不少喝彩之声，例如网约车、短租等等。但是，我认为，网约模式并不等同于分享经济...",
+			"article_brief": "这两年，分享经济在我国多个领域快速兴起，赢得了不少喝彩之声，例如网约车、短租等等。但是，我认为，网约模式并不等同于分享经济",
 			"article_publish_time": "2016-10-29",
 			"article_thumbnail": "../../../public/static/images/selection/selection-img31.png",
 			"article_content": "<div class='selection-content'><p></p><h1>人民日报：网约模式不等于分享经济｜涂子沛</h1><p></p><hr/><p style='color: rgb(136, 136, 136);'>2016-10-29 涂子沛 <a style='color:#607fa6; cursor:pointer;'>涂子沛频道</a></p><p><img src='../../../public/static/images/selection/selection-img31.png' /></p></div>"+
@@ -88,7 +88,7 @@ var article_selection_data = {
 		},
 		{//4
 			"article_title": "涂子沛：机器换下富士康6万员工，依然不是智能制造",
-			"article_brief": "国庆期间，一则新闻给假日平添了一丝紧张气氛：全球最大代工厂富士康“机器换人”计划加速，每年有上万机器人投入使用，其江苏昆山工厂已裁减6万员工...",
+			"article_brief": "国庆期间，一则新闻给假日平添了一丝紧张气氛：全球最大代工厂富士康“机器换人”计划加速，每年有上万机器人投入使用，其江苏昆山工厂已裁减6万员工",
 			"article_publish_time": "2016-10-13",
 			"article_thumbnail": "../../../public/static/images/selection/content-banner.png",
 			"article_content": "<div class='selection-content'><p></p><h1>涂子沛：机器换下富士康6万员工，依然不是智能制造</h1><p></p><hr/><p style='color: rgb(136, 136, 136);'>2016-10-13 涂子沛 <a style='color:#607fa6; cursor:pointer;'>涂子沛频道</a></p><p><img src='../../../public/static/images/selection/selection-img41.gif' /></p></div>"+
@@ -99,7 +99,7 @@ var article_selection_data = {
 	'page2': [	
 		{//5
 			"article_title": "涂子沛：除了司机户籍，滴滴还应该公开什么？",
-			"article_brief": "看似站稳脚跟的滴滴，又面临生死大考。<br/>近日，各地接连出台网约车新政，其中北京、上海要求司机为本市户籍、汽车为本市牌照。对此，滴滴回应，新规将导致网约车车费翻倍、车辆供给骤减、出行效率大幅降低。",
+			"article_brief": "看似站稳脚跟的滴滴，又面临生死大考。近日，各地接连出台网约车新政，其中北京、上海要求司机为本市户籍、汽车为本市牌照。",
 			"article_publish_time": "2016-10-11",
 			"article_thumbnail": "../../../public/static/images/selection/selection-img51.png",
 			"article_content": "<div class='selection-content'><p></p><h1>涂子沛：除了司机户籍，滴滴还应该公开什么？</h1><p></p><hr/><p style='color: rgb(136, 136, 136);'>2016-10-11 涂子沛 <a style='color:#607fa6; cursor:pointer;'>涂子沛频道</a></p><p><img src='../../../public/static/images/selection/selection-img51.png' /></p></div>"+
@@ -108,7 +108,7 @@ var article_selection_data = {
 		},
 		{//6
 			"article_title": "炒房洪流当中的数据后门",
-			"article_brief": "最近的房地产市场有点热，热到从专家学者到扫地大妈都在谈论买房的事，热到不说点房子的事，都不好意思在朋友圈里待着...",
+			"article_brief": "最近的房地产市场有点热，热到从专家学者到扫地大妈都在谈论买房的事，热到不说点房子的事，都不好意思在朋友圈里待着",
 			"article_publish_time": "2016-09-26",
 			"article_thumbnail": "../../../public/static/images/selection/selection-img61.png",
 			"article_content": "<div class='selection-content'><p></p><h1>炒房洪流当中的数据后门</h1><p></p><hr/><p style='color: rgb(136, 136, 136);'>2016-09-26  涂子沛 <a style='color:#607fa6; cursor:pointer;'>涂子沛频道</a></p><p><img src='../../../public/static/images/selection/selection-img61.png' /></p>"+
@@ -137,7 +137,7 @@ var article_selection_data = {
 		},
 		{//7
 			"article_title": "在人工不敌智能的时代，阿里月饼风波有意义吗？",
-			"article_brief": "人类一思考，上帝就发笑。千百年来，让人类气馁的“上帝”角色，一直是星空、宇宙和自然，但今天，我认为多了一个角色——人工智能，悖论的是，它是我们人类自身的产物...",
+			"article_brief": "人类一思考，上帝就发笑。千百年来，让人类气馁的“上帝”角色，一直是星空、宇宙和自然，但今天，我认为多了一个角色——人工智能，悖论的是，它是我们人类自身的产物",
 			"article_publish_time": "2016-09-14",
 			"article_thumbnail": "../../../public/static/images/selection/selection-img71.png",
 			"article_content": "<div class='selection-content'><p></p><h1>在人工不敌智能的时代，阿里月饼风波有意义吗？</h1><p></p><hr/><p style='color: rgb(136, 136, 136);'>2016-09-14 涂子沛 <a style='color:#607fa6; cursor:pointer;'>涂子沛频道</a></p><p><img src='../../../public/static/images/selection/selection-img71.png' /></p>"+
@@ -162,7 +162,7 @@ var article_selection_data = {
 		},
 		{//8
 			"article_title": "涂子沛：为什么中国的企业亟需设立首席数据官？",
-			"article_brief": "15世纪，人类进入大航海时代。这时，葡萄牙人一直专注向东开辟通往亚洲的航线，但意大利人哥伦布却认为，地球是圆的，向西也可以到达亚洲。1492年，在西班牙王室的支持下，他的西行舰队抵达加勒比海岸，哥伦布以为自己踏上了亚洲的印度，他不知道这是一块崭新的大陆...",
+			"article_brief": "15世纪，人类进入大航海时代。这时，葡萄牙人一直专注向东开辟通往亚洲的航线，但意大利人哥伦布却认为，地球是圆的，向西也可以到达亚洲。",
 			"article_publish_time": "2016-09-01",
 			"article_thumbnail": "../../../public/static/images/selection/selection-img81.png",
 			"article_content": "<div class='selection-content'><p></p><h1>涂子沛：为什么中国的企业亟需设立首席数据官？</h1><p></p><hr/><p style='color: rgb(136, 136, 136);'>2016-09-01 涂子沛 <a style='color:#607fa6; cursor:pointer;'>涂子沛频道</a></p><p><img src='../../../public/static/images/selection/selection-img81.png' /></p></div>"+
@@ -171,7 +171,7 @@ var article_selection_data = {
 		},
 		{//9
 			"article_title": "过度收集数据：徐玉玉悲剧的重要原因",
-			"article_brief": "徐玉玉案已火速侦破，但个人信息泄露的阴霾和风险却没有散去。我注意到，徐玉玉的助学金申请包含了26个数据项，其中不仅包括姓名、身份证号、联系方式、住址，还有个人照片、生日、银行账号、学号、家庭经济情况、家庭成员信息等等...",
+			"article_brief": "徐玉玉案已火速侦破，但个人信息泄露的阴霾和风险却没有散去。我注意到，徐玉玉的助学金申请包含了26个数据项，其中不仅包括姓名、身份证号、联系方式、住址",
 			"article_publish_time": "2016-08-30",
 			"article_thumbnail": "../../../public/static/images/selection/selection-img91.png",
 			"article_content": "<div class='selection-content'><p></p><h1>过度收集数据：徐玉玉悲剧的重要原因</h1><p></p><hr/><p style='color: rgb(136, 136, 136);'>2016-08-30  涂子沛 <a style='color:#607fa6; cursor:pointer;'>涂子沛频道</a></p><p><img src='../../../public/static/images/selection/selection-img91.png' /></p>"+
@@ -202,7 +202,7 @@ var article_selection_data = {
 	'page3': [		
 		{//10
 			"article_title": "阿里可以打假，三大运营商对电讯诈骗为什么无所作为",
-			"article_brief": "这几天，我的专栏文章《徐玉玉之死，当地教育部门可能是帮凶》引起了热议，不出所料，读者吐糟的都是遇骗的经历：一名孕妇去医院建卡，一回到家就接到月子中心的营销电话，孩子一出生就有影楼来电话推销满月照，还有保险营销，母女姓名、出生信息一字不差；另有一名网友称...",
+			"article_brief": "这几天，我的专栏文章《徐玉玉之死，当地教育部门可能是帮凶》引起了热议，不出所料，读者吐糟的都是遇骗的经历",
 			"article_publish_time": "2016-08-28",
 			"article_thumbnail": "../../../public/static/images/selection/selection-img101.png",
 			"article_content": "<div class='selection-content'><p></p><h1>阿里可以打假，三大运营商对电讯诈骗为什么无所作为</h1><p></p><hr/><p style='color: rgb(136, 136, 136);'>2016-08-28  涂子沛 <a style='color:#607fa6; cursor:pointer;'>涂子沛频道</a></p><p><img src='../../../public/static/images/selection/selection-img101.png' /></p>"+
@@ -267,7 +267,7 @@ var article_selection_data = {
 		},
 		{//12
 			"article_title": "涂子沛：德先生，赛先生，我们还要数先生",
-			"article_brief": "明天是“五四”运动97周年。当年陈独秀疾呼的德先生与赛先生，已在百年时光中，引领中国从内忧外患走向繁荣兴盛。时代的步伐永不停歇，如今我们又站在一个新的历史路口，大数据时代呼唤数先生，他可以引领中国走向新一轮的启蒙...",
+			"article_brief": "明天是“五四”运动97周年。当年陈独秀疾呼的德先生与赛先生，已在百年时光中，引领中国从内忧外患走向繁荣兴盛。",
 			"article_publish_time": "2016-05-03",
 			"article_thumbnail": "../../../public/static/images/selection/selection-img121.png",
 			"article_content": "<div class='selection-content'><p></p><h1>涂子沛：德先生，赛先生，我们还要数先生</h1><p></p><hr/><p style='color: rgb(136, 136, 136);'>2016-05-03 涂子沛 <a style='color:#607fa6; cursor:pointer;'>涂子沛频道</a></p><p><img src='../../../public/static/images/selection/selection-img121.png' /></p></div>"+
@@ -331,7 +331,7 @@ var article_selection_data = {
 		},
 		{//19
 			"article_title": "涂子沛：人工智能应该5：0全胜，但这不是问题的关键",
-			"article_brief": "昨天，谷歌的程序AlphaGo挑战围棋世界冠军李世石首战告捷，引发各界关注。上一次，当全世界的注意力聚焦在一块小小的棋盘上，是1997年。当年5月， IBM的计算机“深蓝”打败了国际象棋世界冠军，很多人因此失落、甚至产生了恐慌的情绪...",
+			"article_brief": "昨天，谷歌的程序AlphaGo挑战围棋世界冠军李世石首战告捷，引发各界关注。上一次，当全世界的注意力聚焦在一块小小的棋盘上",
 			"article_publish_time": "2016-03-10",
 			"article_thumbnail": "../../../public/static/images/selection/selection-img191.png",
 			"article_content": "<div class='selection-content'><p></p><h1>涂子沛：人工智能应该5：0全胜，但这不是问题的关键</h1><p></p><hr/><p style='color: rgb(136, 136, 136);'>2016-03-10  涂子沛 <a style='color:#607fa6; cursor:pointer;'>涂子沛频道</a></p></div>"+

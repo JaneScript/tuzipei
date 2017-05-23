@@ -9,7 +9,8 @@ body {
     background: #f5f5f5;
     color:#333;
     font-size:14px;
-    font-family:"SimSun","宋体","Arial Narrow";
+//  font-family:"SimSun","宋体","Arial Narrow";
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
 ul,ol {
     list-style-type:none;
@@ -35,7 +36,7 @@ a:hover,a:active,a:focus {
 }
 
 .layout {
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
     position: relative;
 }
@@ -43,7 +44,7 @@ a:hover,a:active,a:focus {
 
 /*******公共头部样式********/
 .header {
-    min-width: 1200px;
+    min-width: 1000px;
     img {
         width: 100%;
     }
@@ -62,15 +63,14 @@ a:hover,a:active,a:focus {
             float: right;
             li {
                 display: inline-block;
+                padding: 0 20px;
+                line-height: 80px;
                 a {
-                    width: 110px;
-                    display: inline-block;
-                    line-height: 80px;
-                    text-align: center;
                     color: #fff;
+                    font-size: 14px;
                 }
                 a:hover {
-                    background: #04bdf2;
+                    color: #04bdf2;
                 }
             }
         }
@@ -83,7 +83,7 @@ a:hover,a:active,a:focus {
 .footer {
     background: #005c9c;
     padding-bottom: 20px;
-    min-width: 1200px;
+    min-width: 1000px;
     .border {
         padding-top: 40px;
         padding-bottom: 20px;
@@ -92,14 +92,14 @@ a:hover,a:active,a:focus {
         border-bottom: 1px solid #1a6da6;
     }
     dl {
-        font-size: 20px;
         float: left;
-        width: 150px;
+        width: 125px;
+        font-size:14px;
+        text-align: center;
         dt {
             padding-bottom: 10px;
             a {
                 color: #ccc;
-                font-size:18px; 
             }
         }
         dd {
@@ -108,12 +108,11 @@ a:hover,a:active,a:focus {
                 display: block;
                 line-height: 2em;
                 color: #ccc;
-                font-size:16px;
             }
             img {
-                width: 120px;
-                height: 120px;
-                margin-top: 8px;
+                width: 90px;
+                height: 90px;
+                margin: 8px auto 0;
             }
         }
     }

@@ -3,20 +3,21 @@
 #bodyBox{
     overflow: hidden;
     clear: both;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     .titleBox{
         height: 100px;
         line-height: 100px;
         text-align: center;
         position:relative;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 28px;
+        color: #666;
         
        &:after,&:before{
            position: absolute;
            top: 50px;
            content:'';
-           width: 35%;
+           width: 30%;
            border: 1px solid #e3e3e3;
        }
        &:after{
@@ -26,64 +27,45 @@
            right: 100px;
        }
     }
-     ul.timeline {
-           li{
-               position: relative;
-               margin: 20px 0;
-               .number{
-                   position: absolute;
-                   background: url('../images/timeline/version_dot.png')  no-repeat scroll 0 0 transparent;
-                   width: 84px;
-                   height: 84px;
-                   left: 0px;
-                   line-height: 20px;
-                   text-align: center;
-                   color: #FFFFFF;
-                   font-size: 18px;
-                   .numberDay{
-                            margin-top: 17px;
-                            font-size: 32px;
-                   }
-                   .numberTime{
-                           margin-top: 10px;
-                           font-size: 18px
-                   }
-               }
-               .content{
-                   margin-left: 150px;
-                   position: relative;
-                   border-bottom: 1px dashed #f7dfc2;
-                   .contentTitle{
-                       font-weight: bold;
-                   }
-                   div{
-//                      background-color: #3594cb;
-//                      background: url("../images/timeline/version_line.png")  repeat-y scroll 120px 0 transparent;
-                        padding: 5px 0;
-                        color: #000;
-                        font-size: 15px;
-                        line-height: 20px;
-                        overflow: hidden;
-                   }
-                   .contentIcon{
-                        float: left;
-                        width: 23%;
-                        padding-right: 10px;
-                        img{
-                            width: 100%;
-                        }
-                   }
-                   &:before{
-                       position: absolute;
-                       content: "";
-                       width: 2px;
-                       background: url("../images/timeline/version_line.png") repeat-y scroll;
-                       left: -108px;
-                       top: 95px;
-                       height: 58%;
-                   }
-               }
-               
-           }
-       }
+    .mapBox {
+        height: 724px;
+        background: url(../images/classroom/map.png) no-repeat;
+        background-size: 100% 100%;
+    }
+    .footMark {
+        padding-left: 125px;
+        overflow: hidden;
+        clear: both;
+        dl {
+            margin: 25px 0;
+            float: left;
+            width: 50%;
+            dt {
+                width: 125px;
+                height: 92px;
+                border-radius: 5px;
+                overflow: hidden;
+                float: left;
+                margin-right: 15px;
+                img {
+                    width: 100%;
+                    height: 100%; 
+                    object-fit: cover;
+                }
+            }
+            dd {
+                height: 92px;
+                float: left;
+                h3 {
+                    line-height: 40px;
+                    padding-bottom: 20px;
+                }
+            }
+            &:nth-last-child(1) {
+                width: 100%;
+            }
+        }
+        
+        
+    }
 }
